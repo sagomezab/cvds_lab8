@@ -25,7 +25,7 @@ public class SecondServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         Writer responseWriter = resp.getWriter();
         try {
-            int number = Integer.parseInt(req.getParameter("number"));
+            int number = Integer.parseInt(req.getParameter("id"));
             todoList = new ArrayList<Todo>();
             while (number > 0) {
                 todoList.add(Service.getTodo(number));
@@ -54,7 +54,7 @@ public class SecondServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp)throws ServletException, IOException{
         Writer responseWriter = resp.getWriter();
         try {
-            int number = Integer.parseInt(req.getParameter("number"));
+            int number = Integer.parseInt(req.getParameter("id"));
             todoList = new ArrayList<Todo>();
             while (number > 0) {
                 todoList.add(Service.getTodo(number));

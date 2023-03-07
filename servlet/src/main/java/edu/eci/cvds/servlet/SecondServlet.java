@@ -49,4 +49,31 @@ public class SecondServlet extends HttpServlet {
         //String name = optName.isPresent() && !optName.get().isEmpty() ? optName.get() : "";
         //resp.setStatus(HttpServletResponse.SC_OK);
     }
+
+    @Override
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp)throws ServletException, IOException{
+        Writer responseWriter = resp.getWriter();
+        try {
+            int number = Integer.parseInt(req.getParameter("number"));
+            todoList = new ArrayList<Todo>();
+            while (number > 0) {
+                todoList.add(Service.getTodo(number));
+                number--;
+            }
+            String a = Service.todosToHTMLTable(todoList);
+            resp.setStatus(HttpServletResponse.SC_OK);
+            responseWriter.write(a);
+            resp.setContentType("text/html");
+
+        }catch(Exception e){
+            e.printStackTrace();
+            if(e instanceof MalformedURLException){
+                resp.setStatus(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);
+            }
+            else{
+                resp.setStatus(HttpServletResponse.SC_BAD_REQUEST);
+                responseWriter.write("Ingrese un valor diferente");
+            }
+        }
+    }
 }

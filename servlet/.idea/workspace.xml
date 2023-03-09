@@ -5,22 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9be8cdb6-3862-4a97-ab6a-0bf2a74b552d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/guess.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/guess.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/guessBean.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/cvds/servlet/SampleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eci/cvds/servlet/SampleServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/cvds/servlet/SecondServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eci/cvds/servlet/SecondServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/cvds/servlet/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eci/cvds/servlet/Service.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/cvds/servlet/model/Todo/Todo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eci/cvds/servlet/model/Todo/Todo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/servlet.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/edu/eci/cvds/servlet/SampleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/edu/eci/cvds/servlet/SampleServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/edu/eci/cvds/servlet/SecondServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/edu/eci/cvds/servlet/SecondServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/edu/eci/cvds/servlet/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/edu/eci/cvds/servlet/Service.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/edu/eci/cvds/servlet/model/Todo/Todo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/edu/eci/cvds/servlet/model/Todo/Todo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

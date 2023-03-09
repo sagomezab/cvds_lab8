@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9be8cdb6-3862-4a97-ab6a-0bf2a74b552d" name="Changes" comment="" />
+    <list default="true" id="9be8cdb6-3862-4a97-ab6a-0bf2a74b552d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/guess.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/guess.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/guessBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/cvds/servlet/SampleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eci/cvds/servlet/SampleServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/cvds/servlet/SecondServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eci/cvds/servlet/SecondServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/cvds/servlet/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eci/cvds/servlet/Service.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/cvds/servlet/model/Todo/Todo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eci/cvds/servlet/model/Todo/Todo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/servlet.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/edu/eci/cvds/servlet/SampleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/edu/eci/cvds/servlet/SampleServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/edu/eci/cvds/servlet/SecondServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/edu/eci/cvds/servlet/SecondServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/edu/eci/cvds/servlet/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/edu/eci/cvds/servlet/Service.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/edu/eci/cvds/servlet/model/Todo/Todo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet/WEB-INF/classes/edu/eci/cvds/servlet/model/Todo/Todo.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +29,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -30,7 +50,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/documentos/2023/CVDS/Lab5/cvds_lab5/servlet"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/whate/OneDrive/Documentos/2023-1/CVDS/LAB5/cvds_lab5/servlet"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

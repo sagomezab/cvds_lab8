@@ -18,6 +18,11 @@
                 <p:commandButton  value = "Enviar" update="guess_form" actionListener="#{guessBean.guess()}"/>
                 <p:commandButton  value = "Reiniciar" update="guess_form" actionListener="#{guessBean.restart()}"/>
             </p:panelGrid>
+            <p:dataTable value = "#{guessBean.historial}" var = "Intento" varStatus="Estado">
+                <p:column headerText = "Intentos Fallidos">
+                    <h:outputText value = "#{Intento}"/>
+                </p:column>
+            </p:dataTable>
         </h:form>
     </h:body>
 </html>

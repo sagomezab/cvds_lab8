@@ -2,6 +2,7 @@
 package com.game.backingBean;
 import javax.faces.bean.ManagedBean;
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.Random;
 import javax.enterprise.context.ApplicationScoped;
 import javax.faces.bean.SessionScoped;
@@ -9,6 +10,7 @@ import javax.faces.bean.SessionScoped;
 @ManagedBean(name = "guessBean")
 @SessionScoped
 public class GuessBean implements Serializable{
+    public ArrayList<Integer> historial;
     private int premio;
     private String estado;
     private Random random;
@@ -19,6 +21,7 @@ public class GuessBean implements Serializable{
 
     public GuessBean(){
         random = new Random();
+        historial = new ArrayList<>();
         numeroAdivinar = random.nextInt(100);
         premio = 100000;
         estado = "Sin Ganador";
@@ -50,12 +53,20 @@ public class GuessBean implements Serializable{
     }
     public void setIntento(int a){
         this.intento = a;
+        historial.add(this.intento);
     }
+
+    public ArrayList<Integer> getHistorial(){
+        return historial;
+    }
+    public void setHistorial(ArrayList<Integer> historial) {
+        this.historial = historial;
+    }
+
     public void guess(){
         if(estado.equals("Sin Ganador")){
             if(numeroAdivinar == intento){
                 estado = "Gano";
-                premio = 100000;
             }
             else{
                 premio -= 10000;

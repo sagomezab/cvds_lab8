@@ -1,3 +1,3 @@
 # LABORATORIO 5 CVDS
 ## Nombres 
-   - Daniel Santiago Zabala
+   - Daniel Santiago Gómez Zabala

@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9be8cdb6-3862-4a97-ab6a-0bf2a74b552d" name="Changes" comment="Final P1 V1">
+    <list default="true" id="9be8cdb6-3862-4a97-ab6a-0bf2a74b552d" name="Changes" comment="Final">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/game/backingBean/GuessBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/game/backingBean/GuessBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/guess.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/guess.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/servlet.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +39,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/whate/OneDrive/Documentos/2023-1/CVDS/LAB5/cvds_lab5/servlet"
+    "last_opened_file_path": "C:/Users/whate/OneDrive/Documentos/2023-1/CVDS/lab8/cvds-lab8/servlet"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -64,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678396359135</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Final">
+      <created>1678397256053</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678397256053</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -81,6 +89,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Final P1" />
     <MESSAGE value="Final P1 V1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final P1 V1" />
+    <MESSAGE value="Final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final" />
   </component>
 </project>

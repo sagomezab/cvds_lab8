@@ -10,6 +10,7 @@
         <h1>Juego De Adivinanza</h1>
         <h:form id="guess_form">
             <p:panelGrid columns = "1" layout = "grid">
+                <p:outputLabel  value = " Bienvenido #{userBean.userName}"/>
                 <p:outputLabel style="display:none" value = "El Numero Correcto: #{guessBean.numeroAdivinar}"/>
                 <p:inputText value = "#{guessBean.intento}"/>
                 <p:outputLabel value = " Numero De Intentos: #{guessBean.numeroIntentos}"/>

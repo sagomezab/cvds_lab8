@@ -1,2 +1,8 @@
+edu\eci\cvds\servlet\backingBean\DataService.class
+edu\eci\cvds\servlet\backingBean\LineChartBean.class
+edu\eci\cvds\servlet\backingBean\GuessBean.class
+edu\eci\cvds\servlet\backingBean\Main.class
+edu\eci\cvds\servlet\SampleServlet.class
 edu\eci\cvds\servlet\model\Todo\Todo.class
 edu\eci\cvds\servlet\Service.class
+edu\eci\cvds\servlet\SecondServlet.class
